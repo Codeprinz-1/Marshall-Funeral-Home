@@ -4,29 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marshall Funeral Home | Greenville, MI | Marshall Funeral Home | Marshall Funeral Home | Marshall Funeral Home | Marshall Funeral Home | Marshall Funeral Home | Marshall Funeral Home | Marshall Funeral Home</title>
+    <title>Service Overview | Marshall Funeral Home</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="./Styles/Index.css" />
-    <link rel="stylesheet" type="text/css" href="./Styles/Nav.css" />
-    <link rel="stylesheet" type="text/css" href="./Styles/Footer.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../Styles/HeadPicture.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../Styles/ServicesOverview.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../Styles/Nav.css" />
+    <link rel="stylesheet" type="text/css" href="../Styles/Footer.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+      type="text/javascript"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="Scripts/Nav.js"></script>
+    <script src="../Scripts/Nav.js"></script>
     <script type="text/javascript">
       WebFont.load({
-          google: {
-              families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "PT Serif:400,400italic,700,700italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "DM Serif Display:regular", "Quattrocento:regular,700", "Parisienne:regular", "Italianno:regular", "Ballet:regular", "Qwigley:regular"]
-          }
+        google: {
+          families: [
+            "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic",
+            "PT Serif:400,400italic,700,700italic",
+            "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+            "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic",
+            "DM Serif Display:regular",
+            "Quattrocento:regular,700",
+            "Parisienne:regular",
+            "Italianno:regular",
+            "Ballet:regular",
+            "Qwigley:regular",
+          ],
+        },
       });
-  </script>
+    </script>
   </head>
   <body>
     <nav id="nav-wrapper">
@@ -47,14 +66,14 @@
           For immediate need, call
           <a href="tel:1-616-754-5691" class="telephone">1-616-754-5691</a>
         </p>
-        <a class="send-flowers-link" href="MarkUp/SendFlowers.html">
-          <img src="Images/flower.svg" />
+        <a class="send-flowers-link" href="../MarkUp/SendFlowers.html">
+          <img src="../Images/flower.svg" />
           <p>Send Flowers</p>
         </a>
       </div>
       <div class="nav-links">
         <div class="first-links">
-          <p><a href="MarkUp/Obituaries.html">Obituaries</a></p>
+          <p><a href="#">Obituaries</a></p>
           <p>
             About Us<svg
               class="caret-icon"
@@ -82,8 +101,8 @@
             </svg>
           </p>
         </div>
-        <a href="Index.html"
-          ><img class="logo" src="Images/marshall-logo.png"
+        <a href="../Index.html"
+          ><img class="logo" src="../Images/marshall-logo.png"
         /></a>
         <div class="second-links">
           <p>
@@ -203,69 +222,93 @@
       </div>
     </nav>
     <div id="space"></div>
-    <div class="container">
-      <h1 class="caption">Serving You</h1>
-      <p class="caption-text">AS WE WOULD LIKE TO BE SERVED</p>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-        </ol>
-    
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="first-caro"></div>
-          </div>
-    
-          <div class="item">
-            <div class="second-caro"></div>
-          </div>
 
+    <div id="service-overview" class="picture-header">
+      <h1>Our Services</h1>
+    </div>
+
+    <div class="services-overview-title">
+      SERVICES WE PROVIDE AT MARSHALL FUNERAL HOME
+    </div>
+    <p class="services-overview-text">
+      Marshall Funeral Home offers distinctive, personal, and affordable
+      services designed to help you honor your loved one in a way that is unique
+      to them and meaningful to you.
+    </p>
+    <div class="services-grid">
+      <div>
+        <img src="../Images/services-image-01.jpg" />
+        <div>
+          <h1>Traditional Services</h1>
+          <p>
+            Whether you choose burial or cremation, a funeral service is an
+            important part of honoring your loved one and starting the healing
+            process. We offer service options that are meaningful and
+            affordable.
+          </p>
+          <a href="Services.html#traditional-services">Learn More</a>
         </div>
-    
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
+      </div>
+      <div>
+        <div>
+          <h1>Cremation Services</h1>
+          <p>
+            We offer several service options for families that choose cremation
+            which can include a full service funeral, a memorial service, or
+            something more private, as well as permanent resting place options
+            for the cremated remains.
+          </p>
+          <a href="Services.html#cremation-services">Learn More</a>
+        </div>
+        <img
+          src="../Images/cremation-services-chicago-1024x521_1cremation-services-chicago-1024x521.jpg"
+        />
+      </div>
+      <div>
+        <img src="../Images/inner-header-veterans-p-1080.jpeg" />
+        <div>
+          <h1>Veteran Services</h1>
+          <p>
+            There is no greater honor than serving those who have served our
+            country. We help you get the benefits and provide a service worthy
+            of a veteran.
+          </p>
+          <a href="Services.html#veteran-services">Learn More</a>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h1>Personalization</h1>
+          <p>
+            Our funeral directors are experts in helping to create meaningful
+            services that are unique and honor your loved one in ways that are
+            special and meaningful. We offer several ways to personalize a
+            service from tribute videos to keepsakes, to live streaming for
+            family and friends that cannot attend in person.
+          </p>
+          <a href="Services.html#personalisation">Learn More</a>
+        </div>
+        <img src="../Images/personalization-p-800.jpeg" />
+      </div>
+      <div>
+        <img src="../Images/plan-ahead_1.jpg" />
+        <div>
+          <h1>Advanced Planning</h1>
+          <p>
+            There is no downside to making funeral arrangements in advance. The
+            peace of mind for you and your family is worth so much when a loved
+            one passes. It’s an easy process and we will walk you through it
+            with no pressure.
+          </p>
+          <a href="Services.html#advanced-planning">Learn More</a>
+        </div>
       </div>
     </div>
-    <div class="content1">
-      <div>
-        <p>WELCOME TO</p>
-        <p>Marshall Funeral Home Inc.</p>
-        <p>
-          The Marshall Funeral Home, 420 W. Grove St. Greenville, Michigan, is located in a quiet residential neighborhood 4 blocks west of the Historic Winter Inn.   The funeral home is barrier free with a spacious parking lot and ample street parking for your convenience. The Marshall Funeral Home has been serving the Greenville and surrounding areas since 1967.  Funeral records date back to the 1880's.   Jeffrey & Sally J. Marshall are the current owners who purchased the business from Jeff's parents, Leo & Lee Marshall.  Our family will be serving your family for the years to come. Prices are competitive with area funeral homes.  We have prices to fit any needs.  Never an answering machine, someone is always available to answer your questions.  We provide funerals for all religious denominations and other types of funerals.
-        </p>
-        </div>
-      <div>
-        <img src="Images/Marshall-FH-p-1080.jpeg" alt="A House">
-      </div>
-    </div>
-    <div class="content2">
-      <a href="">
-        <div><p>Our Services</p></div>
-      </a>
-      <a href="">
-        <div><p>Plan Ahead</p></div>
-      </a>
-      <a href="">
-        <div><p>Grief Support</p></div>
-      </a>
-      <a href="">
-        <div><p>Send Flowers</p></div>
-      </a>
-    </div>
+
     <footer class="footer-wrapper">
       <div class="footer-details">
         <div class="address">
-          <p class="website-name">Marshall Funeral <br/>Home</p>
+          <p class="website-name">Marshall Funeral <br />Home</p>
           <p class="contact">Call 1-616-754-5691</p>
           <p class="address-text">
             420 W. Grove St.<br />
@@ -277,7 +320,7 @@
             <img
               width="150px"
               height="34.5px"
-              src="Images/griefSteps.png"
+              src="../Images/griefSteps.png"
               alt="Grief Steps"
             />
           </div>
