@@ -174,7 +174,7 @@
 
 @media screen and (max-width: 400px) {
   .logo {
-    width: 90%;
+    width: 90% ;
   }
 
   .menu {
@@ -185,10 +185,13 @@
 
   .nav-links {
     display: flex;
+    flex-wrap: nowrap;
   }
 
   #nav-icon {
     margin: 0 !important;
+    flex-shrink: 0 !important;
+    flex: 0 0 auto !important;
   }
 }
 
