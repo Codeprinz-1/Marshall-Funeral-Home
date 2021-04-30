@@ -7,7 +7,6 @@
 .section > div:nth-child(1) {
   flex: 1;
   padding-top: 50px;
-  position: sticky !important;
 }
 
 .section > div:nth-child(2) {

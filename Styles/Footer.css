@@ -142,3 +142,18 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .news-letter-input {
+    width: 100%;
+  }
+
+  .news-letter-input > input {
+    width: 70%;
+  }
+  
+  .news-letter-input > button {
+    width: fit-content;
+    padding: 3px 10px;
+  }
+}
