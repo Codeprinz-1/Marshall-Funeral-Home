@@ -1,7 +1,7 @@
 var func1 = function() {
-  location.hash = ''
-  document.title  = 'Who We Are | Marshall Funeral Home'
-  $('#about-us').css({'background-image': 'linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/road.jpg)'})
+  location.hash = 'the-grieving-process'
+  document.title  = 'The Grieving Process | Marshall Funeral Home'
+  $('#grief-header').css({'background-image': 'linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/header-image-grievingprocess.jpg)'})
   $('.link1').addClass('selected');
   $('.link2').removeClass('selected')
   $('.link3').removeClass('selected')
@@ -11,9 +11,9 @@ var func1 = function() {
 }
 
 var func2 = function() {
-  location.hash = 'why-choose-us'
-  document.title = 'Why Choose Us | Marshall Funeral Home'
-  $('#about-us').css({'background-image': 'linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../Images/road.jpg)'})
+  location.hash = 'grief-resources'
+  document.title = 'Grief Resources | Marshall Funeral Home'
+  $('#grief-header').css({'background-image': 'linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../Images/header-image-griefresources.jpg)'})
   $('.link2').addClass('selected')
   $('.link1').removeClass('selected')
   $('.link3').removeClass('selected')
@@ -23,10 +23,9 @@ var func2 = function() {
 }
 
 var func3 = function() {
-  location.hash = 'contact-us'
-  document.title = 'Contact Us | Marshall Funeral Home'
-  $('.picture-header').children('h1').text('Contact Us')
-  $('#about-us').css({'background-image': 'linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../Images/header-image-contact.jpg)'})
+  location.hash = 'children-and-grief'
+  document.title = 'Children And Grief | Marshall Funeral Home'
+  $('#grief-header').css({'background-image': 'linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../Images/header-image-children.jpg)'})
   $('.link3').addClass('selected')
   $('.link2').removeClass('selected')
   $('.link1').removeClass('selected')
@@ -36,9 +35,9 @@ var func3 = function() {
 }
 
 $(document).ready(function(){
-  if (String(location.hash) == '#why-choose-us') {
+  if (String(location.hash) == '#grief-resources') {
     func2()
-  } else if (String(location.hash) == '#contact-us') {
+  } else if (String(location.hash) == '#children-and-grief') {
     func3()
   } else {
     func1()

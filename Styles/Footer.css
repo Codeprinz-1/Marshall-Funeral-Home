@@ -112,6 +112,7 @@
   font-weight: bold;
   outline: none;
   cursor: pointer;
+  margin-left: 6px;
 }
 
 @media screen and (max-width: 800px) {

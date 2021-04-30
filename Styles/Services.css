@@ -79,13 +79,6 @@
   border-bottom: none !important;
 }
 
-.service-contents1 > img,
-.service-contents4 > img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 25px;
-}
-
 .service-contents4 > h3 {
   color: #741615;
   text-transform: uppercase;
@@ -119,11 +112,6 @@
   font-size: 36px;
   line-height: 42px;
   font-weight: 400;
-}
-
-.service-content-wrapper {
-  padding-right: 3%;
-  padding-left: 3%;
 }
 
 .service-contents5,

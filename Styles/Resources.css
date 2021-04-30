@@ -1,0 +1,30 @@
+#resources-header {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url('../Images/header-image-resources.jpg');
+}
+
+.section-contents1 > p {
+  margin-bottom: 30px;
+}
+
+.section-contents3 > .card > img {
+  width: 40px;
+  height: auto;
+}
+
+.end-link {
+  margin-top: 50px;
+  display: block;
+  font-size: 17px;
+}
+
+.pay {
+  margin-left: 5px;
+}
+
+.link6 {
+  border-bottom: none !important;
+}

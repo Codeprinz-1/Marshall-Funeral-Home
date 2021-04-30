@@ -1,0 +1,31 @@
+#form-header {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../Images/header-image-personalization.jpg");
+}
+
+.html-embed {
+  padding: 80px 15%;
+}
+
+@media screen and (max-width: 1000px) {
+  .html-embed {
+    padding: 80px 10%;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .html-embed {
+    padding: 80px 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .html-embed {
+    padding: 80px 0px;
+  }
+}

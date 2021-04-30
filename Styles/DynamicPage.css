@@ -21,6 +21,16 @@
 }
 
 .section-contents > h2 {
+  margin-bottom: 20px;
+  font-family: Quattrocento, sans-serif;
+  color: #202020;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.section-contents > h2:first-child {
   margin-bottom: 40px;
   font-family: Quattrocento, sans-serif;
   color: #741615;
@@ -44,6 +54,10 @@
 @media screen and (max-width: 480px) {
   .section-with-sub-sections > p:nth-child(odd) {
     font-size: 26px !important;
+  }
+
+  .section-contents > h2 {
+    font-size: 26px;
   }
 }
 .content-link {
@@ -111,13 +125,13 @@
 }
 
 @media screen and (max-width: 750px) {
-  .section-contents > h2 {
+  .section-contents > h2:first-child {
     font-size: 35px;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .section-contents > h2 {
+  .section-contents > h2:first-child {
     font-size: 26px;
   }
 }
@@ -206,4 +220,35 @@
     font-size: 20px;
     line-height: 28px;
   }
+}
+
+.section-contents > img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.section-contents {
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+.beat-link {
+  text-decoration: none !important;
+  color: #e0a40a;
+}
+
+.beat-link:hover, .beat-link:focus {
+  text-decoration: none !important;
+  color: #741615;
+}
+
+.pretty-link {
+  color: #5a0000;
+  text-decoration: none;
+}
+
+.section-contents > ul > li {
+  font-size: 17px;
+  line-height: 26px;
 }

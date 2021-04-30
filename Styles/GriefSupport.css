@@ -1,0 +1,51 @@
+#grief-header {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url("../Images/header-image-grievingprocess.jpg");
+}
+
+.resources-intro {
+  font-weight: bold;
+}
+
+.link3 {
+  border-bottom: none !important;
+}
+
+.card > div > img {
+  height: 25px !important;
+  width: 25px !important;
+  margin-right: 10px;
+}
+
+.card > div {
+  display: flex;
+}
+
+.section-contents2 > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-contents2 > div > div {
+  flex-basis: 48%;
+}
+
+@media screen and (max-width:550px) {
+  .section-contents2 > div > div {
+    flex-basis: 100%;
+  }  
+}
+
+.card > div > .pretty-link {
+  margin-bottom: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: bold;
+  text-decoration: none;
+}
