@@ -19,11 +19,6 @@
   line-height: 26px;
 }
 
-/* .section-contents > .video-embed {
-  width: 100%;
-  height: auto !important;
-} */
-
 .section-contents > .video-embed > iframe {
   width: 100%;
   height: 60vh;
@@ -252,7 +247,8 @@
   color: #e0a40a;
 }
 
-.beat-link:hover, .beat-link:focus {
+.beat-link:hover,
+.beat-link:focus {
   text-decoration: none !important;
   color: #741615;
 }

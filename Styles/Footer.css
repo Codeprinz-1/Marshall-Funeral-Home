@@ -90,7 +90,8 @@
   justify-content: center;
 }
 
-.news-letter-input > input, .news-letter-input > button {
+.news-letter-input > input,
+.news-letter-input > button {
   border-radius: 100px;
 }
 
@@ -151,7 +152,7 @@
   .news-letter-input > input {
     width: 70%;
   }
-  
+
   .news-letter-input > button {
     width: fit-content;
     padding: 3px 10px;

@@ -1,9 +1,10 @@
 #resources-header {
   background-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ), url('../Images/header-image-resources.jpg');
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../Images/header-image-resources.jpg");
 }
 
 .section-contents1 > p {

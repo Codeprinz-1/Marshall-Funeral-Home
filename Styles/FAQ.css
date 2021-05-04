@@ -2,14 +2,15 @@
   height: 14px;
   width: 14px;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 
-.plus-icon .vertical, .plus-icon .horizontal {
+.plus-icon .vertical,
+.plus-icon .horizontal {
   position: absolute;
   background-color: #e0a40a;
 }
@@ -17,7 +18,7 @@
 .plus-icon .vertical {
   height: 14px;
   width: 2px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .plus-icon .horizontal {
@@ -26,7 +27,7 @@
 }
 .minus .vertical {
   transform: rotate(90deg);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .questions > h1 {
@@ -74,7 +75,7 @@
 .panel-body {
   margin-bottom: 10px;
   padding: 20px;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #333;
   font-size: 17px;
   line-height: 26px;

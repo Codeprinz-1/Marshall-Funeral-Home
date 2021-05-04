@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .beautiful-text {
     font-size: 25px !important;
   }

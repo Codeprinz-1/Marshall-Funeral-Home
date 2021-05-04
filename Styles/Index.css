@@ -169,13 +169,13 @@ body {
   text-decoration: none !important;
 }
 
-.content2 > a > div{
+.content2 > a > div {
   width: 100%;
   margin: 0;
   height: 100%;
   background-size: cover;
   background-position: center;
-  transition: transform .5s;
+  transition: transform 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,32 +203,34 @@ body {
   background-color: rgba(71, 1, 0, 0.5);
 }
 
-.content2 > a:nth-child(1) > div{
-  background-image: url('../Images/traditional.jpg');
+.content2 > a:nth-child(1) > div {
+  background-image: url("../Images/traditional.jpg");
 }
 
-.content2 > a:hover > div, .content2 > a:focus > div {
+.content2 > a:hover > div,
+.content2 > a:focus > div {
   transform: scale(1.15);
-  transition: transform .5s;
-  color:  #e0a40a
+  transition: transform 0.5s;
+  color: #e0a40a;
 }
 
-.content2 > a:hover > div::before, .content2 > a:focus > div::before {
+.content2 > a:hover > div::before,
+.content2 > a:focus > div::before {
   visibility: visible;
   opacity: 1;
   transition: visibility 0s linear 0s, opacity 500ms;
 }
 
 .content2 > a:nth-child(2) > div {
-  background-image: url('../Images/plan-ahead.jpg');
+  background-image: url("../Images/plan-ahead.jpg");
 }
 
 .content2 > a:nth-child(3) > div {
-  background-image: url('../Images/grief.jpg');
+  background-image: url("../Images/grief.jpg");
 }
 
 .content2 > a:nth-child(4) > div {
-  background-image: url('../Images/flower-copy.jpg');
+  background-image: url("../Images/flower-copy.jpg");
 }
 
 @media screen and (max-width: 990px) {
@@ -240,7 +242,8 @@ body {
     margin-top: 20px;
   }
 
-  .content1 > div:nth-child(1) > p:nth-child(1), .content1 > div:nth-child(1) > p:nth-child(2) {
+  .content1 > div:nth-child(1) > p:nth-child(1),
+  .content1 > div:nth-child(1) > p:nth-child(2) {
     text-align: left;
   }
 
@@ -279,6 +282,6 @@ body {
 
 @media screen and (max-width: 750px) {
   .content1 > div:nth-child(1) {
-    padding: 2% 0px ;
+    padding: 2% 0px;
   }
 }
