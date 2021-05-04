@@ -477,5 +477,7 @@
 }
 
 .fixed {
-  width: 130px !important;
+  padding-left: 5vw;
+  padding-right: 5vw;
+
 }
