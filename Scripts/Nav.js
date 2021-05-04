@@ -1,19 +1,35 @@
+let fixed;
+
 function scrollFunction() {
   if ($(window).scrollTop() > 45) {
     $(".logo").css({ heigth: "130px" });
     $(".logo").css({ "padding-left": "65px" });
     $(".logo").css({ "padding-right": "65px" });
+		fixed = true
   } else {
     $(".logo").css({ width: "260px" });
     $(".logo").css({ "padding-left": "0px" });
     $(".logo").css({ "padding-right": "0px" });
+		fixed = false
   }
 }
 
 $(document).ready(function () {
   $(".menu").click(function () {
     $(this).children("#nav-icon").toggleClass("open");
-    $(".menu-link-wrapper").parent().toggleClass("increase-height");
+		setTimeout(() => {
+			if (($("#nav-icon").hasClass("open"))) {
+				if (fixed) {
+					$(".menu-link-wrapper").parent().addClass("height");
+				} else {
+					$(".menu-link-wrapper").parent().addClass("increase-height");
+				}
+			} else {
+				$(".menu-link-wrapper").parent().removeClass("increase-height");
+				$(".menu-link-wrapper").parent().removeClass("height");
+			}
+		}, 0)
+		
   });
 
 
