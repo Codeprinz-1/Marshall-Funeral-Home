@@ -479,5 +479,11 @@
 .fixed {
   padding-left: 5vw;
   padding-right: 5vw;
+}
 
+@media screen and (max-width: 600px) {
+  .fixed {
+    padding-left: 12vw;
+    padding-right: 12vw;
+  }
 }
