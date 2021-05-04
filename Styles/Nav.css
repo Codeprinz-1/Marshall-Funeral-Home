@@ -99,6 +99,7 @@
 }
 
 .nav-links {
+  justify-content: space-between;
   z-index: 1000000000;
   color: #202020;
   background-color: #fffffff2;
@@ -112,26 +113,36 @@
   align-items: center;
 }
 
-.first-links, .second-links {
+.nav-links > p > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links > .dropdown, .nav-links > p > a {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* .first-links, .second-links {
   display: flex;
   font-weight: 700;
   flex: 2;
   justify-content: space-between;
   font-size: 18px;
-}
+} */
 
-.first-links {
+/* .first-links {
   padding-right: 7%;
-}
+} */
 
 .second-links {
   padding-left: 7%;
 }
 
-.first-links > p > a, .second-links > p > a {
+/* .first-links > p > a, .second-links > p > a {
   text-decoration: none ;
   color: inherit;
-}
+} */
 
 .logo {
   width: 260px;
@@ -153,7 +164,11 @@
 }
 
 @media screen and (max-width: 1228px) {
-  .first-links , .second-links {
+  /* .first-links , .second-links {
+    display: none;
+  } */
+
+  .nav-links > .dropdown, .nav-links > p {
     display: none;
   }
 
@@ -167,7 +182,6 @@
   .nav-links {
     padding: 0 7%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
 }
@@ -336,7 +350,7 @@
 }
 
 .dropdown-content.resources {
-  margin-left: -65px !important;
+  margin-left: -80px !important;
 }
 
 .dropdown-content a {
@@ -374,7 +388,7 @@
   background-color: white;
   width: 100%;
   flex-basis: 100%;
-  height: 0px;
+  max-height: 0px;
   z-index: 10000000;
   overflow: hidden;
   transition: all .5s;
@@ -382,18 +396,19 @@
 }
 
 .increase-height .menu-link-wrapper {
-  height: 378px !important;
+  /* height: fit-content !important; */
   transition: all .5s;
+  max-height: 83vh !important;
+  overflow-y: auto !important;
 }
 
-.decrease-height .menu-link-wrapper {
-  transition: all .5s;
-  height: 0px !important;
+.menu-link-wrapper::-webkit-scrollbar {
+  display: none !important;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
 }
 
-/* .height-fit-content {
-  height: fit-content !important;
-} */
+
 
 @media screen and (min-width: 1228px) {
   .menu-link-wrapper {
