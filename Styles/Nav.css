@@ -44,12 +44,18 @@
   line-height: 33px;
 }
 
-.top-bar {
-  min-height: 45px;
+#nav-wrapper > div:first-child {
   background-color: #690908;
+}
+
+.top-bar {
+  width: 100%;
+  max-width: 1300px !important;
+  min-height: 45px;
   color: #faf8f4;
   font-size: 16px;
-  padding: 6px 2.5%;
+  padding: 6px 0%;
+  margin: 0px auto 0px auto;
 }
 
 .call-icon {
@@ -105,11 +111,12 @@
   background-color: #fffffff2;
   font-size: 16px;
   height: fit-content;
-  margin-bottom: 3px;
+  margin: 0px auto 3px auto;
   top: 0;
+  max-width: 1260px !important;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 3.5%;
+  padding: 0%;
   align-items: center;
 }
 
@@ -120,8 +127,32 @@
 
 .nav-links > .dropdown,
 .nav-links > p > a {
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .nav-links > .dropdown,
+  .nav-links > p > a {
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  .nav-links {
+    justify-content: space-between;
+  }
+}
+
+
+@media screen and (max-width: 1370px) {
+  .nav-links {
+    justify-content: space-around;
+  }
+
+  .top-bar {
+  padding: 6px 2.5%;
+  }
 }
 
 .nav-links .dropbtn, .nav-links > p{
@@ -182,13 +213,14 @@
     display: flex;
     float: right;
     height: 19px;
-    justify-self: center;
+    /* justify-content: center !important; */
   }
 
   .nav-links {
     padding: 0 7%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -486,4 +518,10 @@
     padding-left: 0vw;
     padding-right: 35vw;
   }
+}
+
+.body-wrap {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0px auto 0px auto;
 }

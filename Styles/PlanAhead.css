@@ -106,7 +106,6 @@
 .plan-section2 {
   width: 100%;
   padding: 30px 2.5%;
-  background-color: #eee;
 }
 
 .plan-section2 > h1 {
@@ -157,4 +156,14 @@
   line-height: 40px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.outer-plan-wrap {
+  background-color: #eee;
+}
+
+.outer-plan-wrap > .plan-wrap {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0px auto 0px auto;
 }
