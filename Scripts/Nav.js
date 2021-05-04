@@ -2,14 +2,10 @@ let fixed;
 
 function scrollFunction() {
   if ($(window).scrollTop() > 45) {
-    $(".logo").css({ heigth: "130px" });
-    $(".logo").css({ "padding-left": "65px" });
-    $(".logo").css({ "padding-right": "65px" });
+    $(".logo").addClass('fixed');
 		fixed = true
   } else {
-    $(".logo").css({ width: "260px" });
-    $(".logo").css({ "padding-left": "0px" });
-    $(".logo").css({ "padding-right": "0px" });
+    $(".logo").removeClass('fixed');
 		fixed = false
   }
 }

@@ -124,6 +124,10 @@
   font-size: 16px;
 }
 
+.nav-links .dropbtn, .nav-links > p{
+  margin-bottom: 0px !important;
+}
+
 /* .first-links, .second-links {
   display: flex;
   font-weight: 700;
@@ -470,4 +474,8 @@
 .dropdown-contents a:hover,
 .dropdown-contents a:focus {
   background-color: #f8f0db;
+}
+
+.fixed {
+  width: 130px !important;
 }
